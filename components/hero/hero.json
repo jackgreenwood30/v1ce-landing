@@ -1,0 +1,17 @@
+{
+  "hero": {
+    "backgroundUrl": "/assets/images/heroImage.png",
+    "heroTitle": "Unlock More Connections, Elevate Your Brand",
+    "heroSubtitle": "Ready to upgrade your online brand? Enter your email to create or get started with your V1CE membership."
+  },
+  "buttons": [
+    {
+      "buttonText": "Sign Up",
+      "buttonStyle": "light"
+    },
+    {
+      "buttonText": "Login",
+      "buttonStyle": "outlined"
+    }
+  ]
+}

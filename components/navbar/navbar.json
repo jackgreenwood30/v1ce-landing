@@ -1,0 +1,24 @@
+{
+  "navbar": {
+    "logoUrl": "/assets/icons/v1ceLogo.png",
+    "logoAlt": "V1CE Logo"
+  },
+  "buttons": [
+    {
+      "buttonText": "Shop",
+      "buttonStyle": "default",
+      "iconUrl": "/assets/icons/bagIcon.png",
+      "iconAlt":"Shopping Bag"
+    },
+    {
+      "buttonText": "English",
+      "buttonStyle": "default",
+      "iconUrl": "/assets/icons/worldIcon.png",
+      "iconAlt":"World Icon"
+    },
+    {
+      "buttonText": "Login",
+      "buttonStyle": "light"
+    }
+  ]
+}
