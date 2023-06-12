@@ -4,7 +4,7 @@ import heroData from './hero.json';
 
 const Hero = () => {
   return (
-    <div className="relative w-screen h-[90vh] max-h-[90vh]">
+    <div className="relative w-screen h-[80vh] md:h-[90vh] max-h-[90vh]">
       <div className="fixed inset-0 -z-10">
         <Image
           src="/assets/images/heroImage.png"
@@ -16,7 +16,7 @@ const Hero = () => {
         />
       </div>
       <div className="absolute inset-0 flex flex-col items-center justify-center px-8 z-10">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-8xl text-white max-w-7xl text-center leading-none font-medium">
+        <h1 className="text-6xl xl:text-8xl text-white max-w-7xl text-center leading-none font-medium">
           {heroData.hero.heroTitle}
         </h1>
         <p className="mt-4 text-base lg:text-lg text-white font-light max-w-2xl text-center leading-relaxed">

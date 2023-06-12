@@ -9,7 +9,7 @@ interface NavButtonProps {
 
 const NavButton: React.FC<NavButtonProps> = ({ buttonText, style, iconUrl="", iconAlt = "" }) => {
   return (
-    <button className={`rounded-full font-semibold text-sm w-40 h-10 flex items-center px-3 ${style === "light" ? "bg-white text-black" : "bg-black text-white border border-[#646464] w-32"}`}>
+    <button className={`rounded-full font-semibold text-sm w-40 hover:w-44 h-10 flex items-center px-3 ${style === "light" ? "bg-white text-black" : "bg-black text-white border border-[#646464] w-32"} transition-all ease-in-out duration-300`}>
       {iconUrl && <Image src={iconUrl} alt={iconAlt} width={23} height={23} className="flex-shrink-0" />}
       <div className="flex-grow flex items-center">
         <span className="mx-auto">{buttonText}</span>
